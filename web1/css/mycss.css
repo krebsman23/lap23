@@ -1,0 +1,45 @@
+.navbar {
+width: 100%;
+background: rgb(168, 166, 166);
+margin: 0;
+position: relative;
+top: 0px;
+}
+
+body{
+    margin: 0;
+    margin-top: 0px;
+}
+
+.navbar ul li{
+padding: 5px 5px;
+background: rgba(0, 27, 115, 0.82);
+list-style: none;
+margin: 6px 5px;
+color: #fff !important;
+  display: inline-block ;
+}
+
+.navbar ul li a{
+color: #fff;
+text-decoration: none;
+}
+
+.navbar ul li a:hover{
+text-decoration: underline;
+
+}
+
+label {
+    min-width: 180px;
+    display: inline-block;
+}
+
+p.error-msg {
+    color: red;
+    padding: 5px;
+}
+.sucess-msg{
+  color:green;
+  padding: 5px;
+}
